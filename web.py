@@ -26,21 +26,23 @@ def get():
   </head>
   <body>
     <p><b>This is a private webservice point. Please be fair and don't abuse this service.</b></p>
-    <p>In case you want to use this service regular, please consider 
-    <address><a href="https://github.com/aaronsw/html2text-service/">to get the source code</a></address> and set up your own service.
+    <p>In case you want to use this service regular, please consider <a href="https://github.com/aaronsw/html2text-service/">to get the source code</a> and set up your own service.
     <br>This a RESTful web service that converts HTML to
       <a href="http://daringfireball.net/projects/markdown/">Markdown</a>-compatible text using
       <a href="http://www.aaronsw.com/">Aaron Swartz</a>'s <a href="http://www.aaronsw.com/2002/html2text/">html2text.py</a>.</p>
     </p>
+    <!--
     <form action="/" method="get">
       <p>URL: <input type="text" name="url" /> <button type="submit">Go</button></p>
     </form>
-      
+    
+
     <form action="/" method="post">
       <p>Or just paste in some HTML:</p>
       <textarea name="html" rows="20" cols="80"></textarea>
       <p><button type="submit">Go</button>
     </form>
+    -->
   </body>
 </html>
 """

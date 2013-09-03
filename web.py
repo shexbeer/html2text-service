@@ -25,7 +25,10 @@ def get():
     <title>html2text</title>
   </head>
   <body>
-    <p>This a RESTful web service that converts HTML to
+    <p><b>This is a private webservice point. Please be fair and don't abuse this service.</b></p>
+    <p>In case you want to use this service regular, please consider 
+    <address><a href="https://github.com/aaronsw/html2text-service/">to get the source code</a></address> and set up your own service.
+    <br>This a RESTful web service that converts HTML to
       <a href="http://daringfireball.net/projects/markdown/">Markdown</a>-compatible text using
       <a href="http://www.aaronsw.com/">Aaron Swartz</a>'s <a href="http://www.aaronsw.com/2002/html2text/">html2text.py</a>.</p>
     </p>
@@ -38,8 +41,6 @@ def get():
       <textarea name="html" rows="20" cols="80"></textarea>
       <p><button type="submit">Go</button>
     </form>
-    
-    <address><a href="https://github.com/aaronsw/html2text-service/">Get the source code.</a></address>
   </body>
 </html>
 """
